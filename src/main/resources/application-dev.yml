@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:13306/watermark_remove?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: username
+    #如果你的密码是纯数字，需要用字符串包起来，只有纯数字需要这样
+    password: 'password'
+wx:
+  appId: appId
+  secret: secrety
+
